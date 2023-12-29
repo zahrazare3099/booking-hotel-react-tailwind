@@ -69,6 +69,7 @@ export default function HeaderPage() {
     navigateParams({ pathname: "/hotels", search: encodedParams.toString() });
   };
   const navigator = useNavigate();
+  // Auth
   const { isAuthenticated, logout, user } = useAuth();
   const navigate = useNavigate();
   return (
