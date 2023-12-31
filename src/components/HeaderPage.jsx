@@ -68,22 +68,28 @@ export default function HeaderPage() {
     });
     navigateParams({ pathname: "/hotels", search: encodedParams.toString() });
   };
-  const navigator = useNavigate();
   // Auth
   const { isAuthenticated, logout, user } = useAuth();
   const navigate = useNavigate();
   return (
     <nav className="flex items-center mb-3">
       {/* LOGO */}
-      <div className="w-48 flex flex-col text-orange-700 items-center justify-center pr-3">
+      <div className="w-48 flex flex-col text-orange-700 items-center justify-center pr-3 cursor-pointer">
         {isAuthenticated ? (
           <div className="flex flex-col items-center justify-center cursor-pointer">
-            <img src={logoSecend} alt="logoSecend" />
+            <img
+              src={logoSecend}
+              alt="logoSecend"
+              onClick={() => navigate("/")}
+            />
             <p
-              onClick={() => navigator("/bookmarks")}
+              onClick={(e) => {
+                e.preventDefault();
+                navigate({ pathname: "/bookmarks" });
+              }}
               className="text-xs font-serif px-1 text-right w-full font-bold"
             >
-              Bookmak list
+              list of your Bookmarks
             </p>
           </div>
         ) : (

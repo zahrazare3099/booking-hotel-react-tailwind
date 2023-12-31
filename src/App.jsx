@@ -33,9 +33,9 @@ function App() {
               <Route
                 path="/bookmarks"
                 element={
-                  // <PorotectedRoute>
-                  <BookmarkLayout />
-                  // </PorotectedRoute>
+                  <PorotectedRoute>
+                    <BookmarkLayout />
+                  </PorotectedRoute>
                 }
               >
                 <Route index element={<Bookmark />} />

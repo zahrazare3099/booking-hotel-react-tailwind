@@ -1325,24 +1325,6 @@
   ],
   "bookmarks": [
     {
-      "cityName": "Rome",
-      "country": "Italy",
-      "countryCode": "IT",
-      "latitude": "41.7953421912135",
-      "longitude": "12.331467702409453",
-      "host_location": "Rome Italy",
-      "id": 6
-    },
-    {
-      "cityName": "Shiraz",
-      "country": "Iran (Islamic Republic of)",
-      "countryCode": "IR",
-      "latitude": "29.594413856686003",
-      "longitude": "52.56958007812501",
-      "host_location": "Shiraz Iran (Islamic Republic of)",
-      "id": 9
-    },
-    {
       "cityName": "Bournemouth",
       "country": "United Kingdom of Great Britain and Northern Ireland (the)",
       "countryCode": "GB",
@@ -1350,15 +1332,6 @@
       "longitude": "-1.9146570207858862",
       "host_location": "Bournemouth United Kingdom of Great Britain and Northern Ireland (the)",
       "id": 12
-    },
-    {
-      "cityName": "Kortemark",
-      "country": "Belgium",
-      "countryCode": "BE",
-      "latitude": "51.0021140813625",
-      "longitude": "3.003183441888129",
-      "host_location": "Kortemark Belgium",
-      "id": 13
     },
     {
       "cityName": "Bournemouth",
@@ -1386,6 +1359,24 @@
       "longitude": "4.8780886485243045",
       "host_location": "Amsterdam Netherlands (the)",
       "id": 20
+    },
+    {
+      "cityName": "Bonn",
+      "country": "Germany",
+      "countryCode": "DE",
+      "latitude": "50.71907414835209",
+      "longitude": "7.164408059168427",
+      "host_location": "Bonn Germany",
+      "id": 21
+    },
+    {
+      "cityName": "London",
+      "country": "United Kingdom of Great Britain and Northern Ireland (the)",
+      "countryCode": "GB",
+      "latitude": "51.481876318298276",
+      "longitude": "-0.05218024846759262",
+      "host_location": "London United Kingdom of Great Britain and Northern Ireland (the)",
+      "id": 22
     }
   ]
 }
