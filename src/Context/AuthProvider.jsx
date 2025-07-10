@@ -7,7 +7,7 @@ const initialState = {
   user: null,
 };
 
-const FAKE_USER = { email: "zishvadiTeam@gmail.com", password: "0000" };
+const FAKE_USER = { email: "test@gmail.com", password: "0000" };
 
 const authReducer = (state, action) => {
   switch (action.type) {

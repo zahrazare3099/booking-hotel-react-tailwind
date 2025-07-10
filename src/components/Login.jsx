@@ -56,7 +56,7 @@ export default function Login() {
                   name="email"
                   className="outline-none pl-2 rounded-lg flex-1 text-black"
                   type="email"
-                  placeholder="...@email.com"
+                  placeholder="test@gmail.com"
                 />
                 <EnvelopeIcon className="w-9 h-9 text-orange-400 px-2" />
               </div>
@@ -82,7 +82,7 @@ export default function Login() {
                   name="password"
                   className="outline-none pl-2 rounded-lg flex-1 text-black"
                   type="password"
-                  placeholder="1234"
+                  placeholder="0000"
                 />
                 <KeyIcon className="w-9 h-9 text-orange-400 px-2" />
               </div>
